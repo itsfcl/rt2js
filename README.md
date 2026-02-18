@@ -1,12 +1,16 @@
 # rt2js
 Small raytracing/PBR library
+
+
 <img width="867" height="862" alt="image" src="https://github.com/user-attachments/assets/c6951000-c98b-4d58-83d7-cc19aa847494" />
+
 
 Current support
 - Spherical meshes
 - ACES Filma tonemapping by default
 - Upsampling/downsampling
 - Progressive rendering using frame accumulation
+
 
 Limitations
 - Completely CPU-dependent (due to the nature of CPU and JS)
@@ -21,6 +25,8 @@ Limitations
 
 
 Example usage (with progressive rendering)
+
+
 ```js
 const samplingRate = 1;
 
@@ -54,4 +60,6 @@ function loop() {
 
 loop();
 ```
+
+
 <img width="869" height="866" alt="image" src="https://github.com/user-attachments/assets/76b10217-d037-4200-8813-0c9bbd1f714b" />
