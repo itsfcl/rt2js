@@ -5,14 +5,14 @@ Small raytracing/PBR library written in pure JS (TypeScript) and Canvas API
 <img width="867" height="862" alt="image" src="https://github.com/user-attachments/assets/c6951000-c98b-4d58-83d7-cc19aa847494" />
 
 
-Current support
+# Current support
 - Spherical meshes
 - ACES Filma tonemapping by default
 - Upsampling/downsampling
 - Progressive rendering using frame accumulation
 
 
-Limitations
+# Limitations
 - Completely CPU-dependent (due to the nature of CPU and JS)
 - No support for triangle-based meshes/voxels
 - Extremely hard to modify and maintain due to aggressive vector3 maths inlining (it's worth it though, up to 8x faster)
@@ -24,7 +24,7 @@ Limitations
 - High noise due to floating point error and lack of dedicated raytracing units
 
 
-Example usage (with progressive rendering)
+# Example usage (with progressive rendering)
 
 
 ```js
