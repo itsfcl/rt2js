@@ -28,6 +28,9 @@ Example usage (with progressive rendering)
 
 
 ```js
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d")!;
+
 const samplingRate = 1;
 
 let shader = new Shader(
