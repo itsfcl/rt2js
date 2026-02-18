@@ -1,0 +1,14 @@
+{
+  "name": "rt2js",
+  "version": "1.0.0",
+  "description": "Small raytrace engine in pure JS.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": ["raytracer", "graphics", "webgl", "canvas"],
+  "author": "itsfcl",
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "~5.8.3"
+  }
+}
