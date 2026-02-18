@@ -1,5 +1,5 @@
 # rt2js
-Small raytracing/PBR library
+Small raytracing/PBR library written in pure JS (TypeScript) and Canvas API
 
 
 <img width="867" height="862" alt="image" src="https://github.com/user-attachments/assets/c6951000-c98b-4d58-83d7-cc19aa847494" />
